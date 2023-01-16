@@ -5,6 +5,7 @@ export type Customer = {
   firstName: string | null;
   id: string;
   lastName: string | null;
+  phone: string | null;
   plans?: Array<Plan>;
   updatedAt: Date;
 };

@@ -23,6 +23,7 @@ model Customer {
   firstName String?
   id        String   @id @default(cuid())
   lastName  String?
+  phone     String?
   plans     Plan[]
   updatedAt DateTime @updatedAt
 }
